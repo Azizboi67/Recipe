@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(30, 54%, 90%);
+}
+.container{
+    height: 1600px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 0px 40px;
+    background-color: white;
+}
+.header{
+    height: 100vh;
+
+}
+.header img{
+    width: 600px;
+    border-radius: 12px;
+    padding:40px 0px ;
+}
+.header h1{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
+.times{
+    width: 600px;
+    padding:20px 0px ;
+    height: 200px;
+    background-color:hsl(330, 100%, 98%) ;
+}
+h2{
+    padding-left: 20px;
+}
+.times p {
+    padding-left: 40px;
+}
+.ingredients{
+    width: 600px;
+
+}
+.ingredients h3{
+    font-size: 30px;
+}
+.ingredients p{
+    padding-left: 30px;
+}
+.boarder{
+    border-top:1px solid black ;
+    color: hsl(24, 5%, 18%);
+    padding-top: 20px;
+}
+.intro  p:first-child{
+    padding-right: 30px;
+}
+h5{
+    font: size 50px;
+}
+.boardr{
+    border-top:1px solid black ;
+    color: hsl(24, 5%, 18%);
+    padding-top: 20px;
+}
+.footer{
+
+}
+.recipe{
+    width: 600px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.bor{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.493);
+}
+.instructions .item p span {
+    font-weight: 700;
+  }
+  .nutrition-step .values {
+  }
+  .nutrition-box .item {
+    padding: 20px 2px;
+    display: flex;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  .nutrition-box .item {
+    padding: 20px 20px;
+    display: flex;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  .nutrition-box .item:last-child {
+    border-bottom: 0;
+  }
+  .nutrition-box .item p:nth-child(2) {
+    color:  hsl(14, 45%, 36%);  
+    font-weight: 700;
+  }
+  .nutrition-box .item>* {
+    width: 100px;
+    margin-right: auto;
+  }
+  .recipe-information {
+    padding: 0px 30px 30px 30px;
+  }
+  .instructions .item {
+    display: flex;
+  }
+  h5{
+    font-size: 25px;
+    color:  hsl(14, 45%, 36%);
+  }
+
+
+
+
+
+
